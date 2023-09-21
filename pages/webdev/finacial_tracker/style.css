@@ -34,7 +34,7 @@
   height: 2122px;
   top: 0;
   left: 0;
-  background: linear-gradient(180deg, rgb(240, 156, 155) 0%, rgb(255, 227.75, 223.12) 100%);
+  background: linear-gradient(180deg, rgb(0, 0, 255) 0%, rgb(255, 0, 0, 223.12) 100%);
 }
 
 .financial-tracker .NAV {
