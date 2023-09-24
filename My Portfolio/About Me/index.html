@@ -1,36 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <title>Personal Portfolio Website</title>
-  
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <div class="hero">
-      <nav>
-        <img src="./img/logo.png" class="logo" />
-        <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Service</a></li>
-          <li><a href="#">Portfolio</a></li>
-          <li><a href="#">Blog</a></li>
-          <li><a href="#">Contact</a></li>
-        </ul>
-        <a href="#" class="btn">Resume</a>
-      </nav>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name - Personal Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Kyle Tan</h1>
+        <p>Web Developer | Blogger | Photographer</p>
+    </header>
 
-      <div class="content">
-        <span class="title">About Me</span>
-        <h1>Hello, I’m <span>Kyle</span></h1>
-        <p>
-          I’m working on a professional, visually sophisticated and
-          technologically proficient, responsive and multi-functional React
-          Components.
-        </p>
-        <a href="#" class="btn">Download CV</a>
-      </div>
-    </div>
-  </body>
+    <nav>
+        <ul>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>I am hardworking and set reasonable goals for myself. Once those goals are in place, I can then back out of them and create smaller goals or benchmarks to accomplish so I can continuously evaluate my performance.</p>
+    </section>
+
+    <section id="portfolio">
+        <h2>Portfolio</h2>
+        <!-- Add your projects or work samples here with descriptions and links -->
+        <div class="project">
+            <h3>Davise's Borger</h3>
+            <p>tancyle.github.io/DaviesBurger/index.html</p>
+            <a href="#">View Project</a>
+        </div>
+        <div class="project">
+            <h3>Fashion Blog</h3>
+            <p>tancyle.github.io/FashionBlog/index.html</p>
+            <a href="#">View Project</a>
+        </div>
+       <div class="project">
+            <h3>Wine Festival</h3>
+            <p>https://github.com/TanCyle/tancyle.github.io/blob/main/Wine%20Festival%20/index.html</p>
+            <a href="#">View Project</a>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>You can reach me at ktan_220000002154@uic.edu.ph</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Kyle</p>
+    </footer>
+</body>
 </html>
